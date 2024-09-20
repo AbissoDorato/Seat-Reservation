@@ -1,0 +1,16 @@
+# File to test the APIs
+
+## Retrive all the theatres
+GET http://localhost:3001/api/theatres  HTTP/1.1
+###
+
+## Retrive all the concerts
+http://localhost:3001/api/concerts  HTTP/1.1
+###
+
+## Given the ID of a concert i can retrive all the occupied seats
+http://localhost:3001/api/concerts/1/occupied-seats HTTP/1.1
+###
+
+## Given the Id of a user i can retrive his information
+http://localhost:3001/api/concerts/ HTTP/1.1
